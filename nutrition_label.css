@@ -1,0 +1,107 @@
+html {
+  font-size: 28px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+body, main, figure, h1, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  border: 2px solid black;
+  width: 646px;
+  padding: 8px 15px 15px 15px;
+  margin: 8px;
+}
+
+h1 {
+  font-family: "Franklin Gothic Heavy", Arial, sans-serif;
+  font-size: 2.1rem;
+}
+
+header {
+  border-bottom: 30px solid black;
+  padding-bottom: 5px;
+}
+
+section {
+  border-bottom: 20px solid black;
+}
+
+header + section {
+  border-bottom: 14px solid black;
+}
+
+main section:nth-child(2) table tr td {
+  padding: 5px 0;
+}
+
+main section:nth-child(3) {
+  padding-top: 11px;
+}
+
+main section:nth-child(3) table tr:first-child td {
+  border-top: none;
+}
+
+main section:nth-child(4) {
+  border-bottom: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 10px 0;
+}
+
+td {
+  padding: 2px 0;
+}
+
+section td:last-child {
+  text-align: right;
+}
+
+td.indent {
+  width: 1rem;
+  border-top: none;
+}
+
+td {
+  border-top: 1px solid black;
+}
+
+ul {
+  list-style-image: url("asterisk.png");
+  padding: 14px 16px;
+  font-size: 0.9rem;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
+footer table tr td:nth-child(2) {
+  text-align: left;
+}
+
+footer th:first-child {
+  width: 37%;
+}
+
+footer th {
+  border-bottom: 1px solid black;
+  font-weight: normal;
+  padding: 0;
+}
+
+footer td {
+  border-top: none;
+}
