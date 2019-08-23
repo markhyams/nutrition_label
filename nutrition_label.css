@@ -69,7 +69,7 @@ section td:last-child {
   text-align: right;
 }
 
-td.indent {
+.indent {
   width: 1rem;
   border-top: none;
 }
